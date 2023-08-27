@@ -67,6 +67,38 @@ Related PRs:
 - <https://github.com/kubearmor/kubearmor-action/pull/19>
 - <https://github.com/kubearmor/kubearmor-client/pull/346>
 
+### Project results display
+
+The most difficult part of the project is the visualization of system and network behavior, which I need to represent in data structures and implement relevant differentiation algorithms.
+
+System visualization algorithm flow:
+
+<img width=100% src="images/system-workflow.png">
+
+Network visualization algorithm flow:
+
+<img width=100% src="images/network-workflow.png">
+
+Take the sock-shop microservice demo as an example, Visualizations are as follows.
+
+All system behaviors:
+
+<img width=100% src="images/system-visual-all.png">
+
+All network behaviors:
+
+<img width=100% src="images/network-visual-all.png">
+
+Filters Pod behavior that contains front-end：
+
+System level：
+
+<img width=100% src="images/system-visual-filter.png">
+
+Network level(Contains changes in network behavior):
+
+<img width=100% src="images/network-visual-filter.png">
+
 ## Future Work
 
 Now running through the entire process, we can visualize system behavior and network behavior, which is a great help for Devops. In the future, we can consider adding more interesting features, such as container security issues and cluster security issues that we are currently concerned about. We can consider early detection and resolution of security issues through our Kubeararmor-action component during project development. This also requires support from upstream kubearmor and kubearmor-client.
