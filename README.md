@@ -24,7 +24,7 @@
   </p>
 </div>
 
-This is my first time participating in GSoC, and I am honored to be selected by CNCF and KuberArmor organization and complete this project within three months.
+This is my first time participating in GSoC, and I am honored to be selected by CNCF and KubeArmor organization and complete this project within three months.
 
 First of all, I am very grateful to my mentors: [Barun Acharya](https://github.com/daemon1024), [Ankur Kothiwal](https://github.com/Ankurk99), [Rahul Jadhav](https://github.com/nyrahul), [Anurag](https://github.com/kranurag7), who gave me a lot of help in the project. Their professionalism and patience are worth learning from and it was a wonderful experience to work with them.
 
